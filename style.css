@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #062863;
+  background-size: cover;
+  position: static;
+  font-family: "PT Sans", sans-serif;
+}
+
+#root {
+  height: 100vh;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  position: relative;
+  overflow: auto;
+  background-image: url("./img/1.png"), url("./img/2.png"), url("./img/3.png"),
+    url("./img/4.png");
+  background-size: 15%, 15%, 15%, 15%;
+  background-position: left -1% top -15%, right -7.5% top -1%,
+    left -5% bottom -10%, right -5% bottom -5%;
+  height: 100vh;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+.center {
+  text-align: center;
+}
+
+.signup-form-container {
+  position: absolute;
+  left: 50%;
+  top: 68%;
+  transform: translate(-50%, -50%);
+}
+
+.logo-container {
+  margin: 20px;
+}
+
+.logo {
+  position: relative;
+  left: 10px;
+  top: 80px;
+  margin: 100px;
+}
+
+.signup-form {
+  background: #fff;
+  width: fit-content;
+  padding: 20px 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 350px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.blue-text {
+  color: #083e9e;
+}
+
+.btn-blue {
+  background-color: #083e9e;
+  color: #fff;
+}
+
+.grey-text {
+  color: #607489;
+}
+
+.header-text {
+  margin: 30px 0;
+}
+
+.header-text h1 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.header-text p {
+  font-size: 14px;
+}
+
+.form-control {
+  width: 80%;
+  padding: 5px 30px;
+}
+
+.form-control > label {
+  display: block;
+  color: #4a5568;
+  font-weight: 800;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.form-control input,
+.form-control select {
+  width: 350px;
+  height: 55px;
+  padding: 16px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  background: #e2e8f0;
+  opacity: 0.8;
+  font-size: 14px;
+  color: #1a202c;
+  text-indent: 1px;
+  border-radius: 5px;
+}
+
+.more {
+  color: #fff;
+  font-size: 14px;
+  margin: 40px 0 60px;
+}
+
+.more a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.more:hover {
+  /* color: #545a65; */
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* 
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAAGXRFW…DDAgDAsAAAwwIAwLAAADAsAMCwAAAwLAAADAsAUuL/BRgAbdjMWJwXo90AAAAASUVORK5CYII=), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAAGXRFW…CwAAAQFgAAwgIAhAUAgLAAABAWACAsAACEBQDQAf5fgAEAyw11IJv0GU8AAAAASUVORK5CYII=), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAAGXRFW…IAAgsAgQUABBYAEFgACCwAILAAgMACQGABAIEFAD35nwADALRKT8CBeskNAAAAAElFTkSuQmCC), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAAGXRFW…CGBQCAYQEAYFgAgGEBAGBYAAAYFgBgWAAAGBYAwL75gwADAJg9Yl+p8U3/AAAAAElFTkSuQmCC);
+    background-size: 15%, 15%, 15%, 15%;
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+*/
